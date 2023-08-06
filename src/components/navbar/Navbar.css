@@ -1,0 +1,29 @@
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 32px;
+}
+
+.logo {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.burger {
+    width: 41px;
+    height: 41px;
+    border-radius: 12px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: var(--secondary);
+}
