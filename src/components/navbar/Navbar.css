@@ -8,12 +8,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 29px 32px;
+    border-bottom: var(--secondary) solid 1px;
+    background-color: white;
 }
 
 .logo {
     color: var(--primary);
     font-weight: bold;
     font-size: 32px;
+    margin-right: 32px;
 }
 
 
@@ -24,13 +27,23 @@ nav {
     align-items: center;
 }
 
+.left .line {
+    margin-right: 32px;
+}
+
 .line {
-    margin-left: 32px;
     height: 15px;
     width: 2px;
     background-color: var(--secondary);
     border-radius: 16px;
 }
+
+.curr:hover{
+    .ccard {
+        display: block;
+    }
+}
+
 
 .navlist {
     display: flex;
@@ -38,10 +51,10 @@ nav {
 
 .navlist li {
     color: black;
-    
     display: flex;
     cursor: pointer;
-    margin-left: 32px;
+    margin-right: 32px;
+
     font-size: 18px;
     font-weight: 300;
     font-family: 'Outfit', sans-serif;
@@ -49,5 +62,110 @@ nav {
 
 .icon {
     margin-right: 7px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: var( --primary-text);
+    font-size: 19px;
+}
+
+.right p {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.right p,.line,.info {
+    margin-right: 20px;
+}
+.right button {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    width: 131px;
+    height: 41px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info {
+    color: var(--primary);
+    font-size:  20px;
+}
+
+.logicon {
+    margin-left: 8px;
+}
+
+.arrow1 {
+    color: var(--primary);
+}
+
+.ccard {
+    padding: 16px;
+    width: 255px;
+    background-color:white;
+    border: var(--secondary) solid 1px;
+    border-radius: 6px;
+    position: absolute;
+    color: var( --primary-text);
+    top: 40px;
+    left: 0;
+    box-shadow: 0px 8px 18px 1px rgba(0, 0, 0, .1);
+    display: none;
+}
+
+.ccard h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ccard:hover{
+    display:block;
+}
+
+.ccard ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.ccard li p {
+    padding: 8px 12px;
+}
+
+.ccard li {
+    border-top: var(--secondary) solid 1px;
+}
+
+.selected {
+    background-color: var(--secondary);
+}
+
+@media (max-width: 1142px) {
+    .navlist li {
+    display: none;
+    }
+    .left .line {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .right {
+        display: none;
+    }
+    nav {
+        border: none;
+    }
 }
 

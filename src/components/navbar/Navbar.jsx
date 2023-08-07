@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import './Navbar.css'
 import Burger from '../burger/Burger'
+import {FiInfo, FiLogIn} from 'react-icons/fi'
+import {RiArrowDownSFill} from 'react-icons/ri'
+
+
 export default function Navbar() {
 
-  const {lang,setLang} = useState('Eng')
-  const {curr,setCurr} = useState('USD')
+  const [lang,setLang] = useState('Eng')
+  const [curr,setCurr] = useState('USD')
 
   return (
     <nav>
@@ -18,8 +22,26 @@ export default function Navbar() {
         </ul>
       </div>
       <div className='right'>
-        <p>{lang}</p>
-        <p>{curr}</p>
+        <p className='lang'>{lang}
+          <RiArrowDownSFill className='arrow1'/>
+        </p>
+        <p className='curr'>{curr}
+          <RiArrowDownSFill className='arrow1'/>
+          <div className='ccard'>
+            <h1>Select a currency</h1>
+            <ul>
+              <li className='selected'><p>USD</p></li>
+              <li><p>EUR</p></li>
+              <li><p>UAH</p></li>
+              <li><p>GBP</p></li>
+              <li><p>SSD</p></li>
+            </ul>
+          </div>
+          </p>
+        <svg className='line'></svg>
+        <FiInfo  className='info'/>
+        <svg className='line'></svg>
+        <button className='button'>Log In <FiLogIn className='logicon' /></button>
       </div>
       <Burger/>
     </nav>

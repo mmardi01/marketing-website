@@ -20,7 +20,7 @@
     right: 0;
     translate: 340px;
     width: 310px;
-    position: fixed;
+    position:  absolute;
     background-color: var(--primary);
     transition: ease-out;
     transition-duration: 500ms;

@@ -9,7 +9,7 @@ import './Burger.css'
 export default function Burger() {
   const [slide,setSlide] = useState('')
   return (
-    <div>
+    <>
         <div className='burger' onClick={() => setSlide('slide')}>
             <PiListBold  />
         </div>
@@ -27,6 +27,6 @@ export default function Burger() {
               <li><p>Currency</p><RiArrowDownSFill className='arrow'/></li>
             </ul>
           </div>
-    </div>
+    </>
   )
 }
