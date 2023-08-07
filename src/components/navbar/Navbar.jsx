@@ -24,6 +24,16 @@ export default function Navbar() {
       <div className='right'>
         <p className='lang'>{lang}
           <RiArrowDownSFill className='arrow1'/>
+          <div className='lcard'>
+            <h1>Select a currency</h1>
+            <ul>
+              <li className='selected'><img src="eng.svg" alt="" /><p>English</p></li>
+              <li><img src="ger.svg" alt="" /> <p>German</p></li>
+              <li><img src="chi.svg" alt="" /><p>Chinese</p></li>
+              <li><img src="ita.svg" alt="" /><p>Italian</p></li>
+              <li><img src="tra.svg" alt="" /><p>Trash</p></li>
+            </ul>
+          </div>
         </p>
         <p className='curr'>{curr}
           <RiArrowDownSFill className='arrow1'/>
