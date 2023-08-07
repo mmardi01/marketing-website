@@ -16,80 +16,38 @@ nav {
     font-size: 32px;
 }
 
-.burger {
-    width: 41px;
-    height: 41px;
-    border-radius: 12px;
-    background-color: var(--primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 27px;
-    color: var(--secondary);
-    cursor: pointer;
-}
-.burger:hover {
-    color: white;
-}
 
-.side {
-    top: 0;
-    bottom: 0;
-    right: 0;
-    translate: 340px;
-    width: 310px;
-    position: fixed;
-    background-color: var(--primary);
-    transition: ease-out;
-    transition-duration: 500ms;
-    padding: 27px 0 0 31px;
-}
-.slide{
-    translate: 0;
-}
 
-.top {
-    width: 80%;
+.left {
     display: flex;
     justify-content: space-between;
-}
-
-.xicon {
-    cursor: pointer;
-    color: var(--secondary);
-    font-size: 40px;
-}
-
-.licon {
-    cursor: pointer;
-    color: white;
-    font-size: 40px;
-}
-
-.xicon:hover{
-    color: white;
-}
-
-ul {
-    margin-top: 10px;
     align-items: center;
-    list-style: none;
+}
+
+.line {
+    margin-left: 32px;
+    height: 15px;
+    width: 2px;
+    background-color: var(--secondary);
+    border-radius: 16px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    color: black;
+    
+    display: flex;
+    cursor: pointer;
+    margin-left: 32px;
+    font-size: 18px;
     font-weight: 300;
-    font-size: 24px;
     font-family: 'Outfit', sans-serif;
 }
 
-li {
-    display: flex;
-    color: white;
-    cursor: pointer;
-    margin-top: 32px;
+.icon {
+    margin-right: 7px;
 }
-li:hover {
-    border-bottom: 2px white;
-}
-.arrow {
-    color: var(--secondary);
-    font-size: 26px;
-    margin-left: 16px;
-}
+
