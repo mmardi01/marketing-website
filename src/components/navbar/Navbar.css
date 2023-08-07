@@ -26,4 +26,70 @@ nav {
     align-items: center;
     font-size: 27px;
     color: var(--secondary);
+    cursor: pointer;
+}
+.burger:hover {
+    color: white;
+}
+
+.side {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    translate: 340px;
+    width: 310px;
+    position: fixed;
+    background-color: var(--primary);
+    transition: ease-out;
+    transition-duration: 500ms;
+    padding: 27px 0 0 31px;
+}
+.slide{
+    translate: 0;
+}
+
+.top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.xicon {
+    cursor: pointer;
+    color: var(--secondary);
+    font-size: 40px;
+}
+
+.licon {
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+}
+
+.xicon:hover{
+    color: white;
+}
+
+ul {
+    margin-top: 10px;
+    align-items: center;
+    list-style: none;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+}
+
+li {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    margin-top: 32px;
+}
+li:hover {
+    border-bottom: 2px white;
+}
+.arrow {
+    color: var(--secondary);
+    font-size: 26px;
+    margin-left: 16px;
 }
