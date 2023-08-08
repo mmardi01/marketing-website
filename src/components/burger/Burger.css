@@ -18,9 +18,9 @@
     top: 0;
     bottom: 0;
     right: 0;
-    translate: 340px;
-    width: 310px;
-    position:  absolute;
+    translate: 100%;
+    width: 80%;
+    position:  fixed;
     background-color: var(--primary);
     transition: ease-out;
     transition-duration: 500ms;
@@ -68,6 +68,7 @@
     margin-top: 32px;
 }
 
+
 .arrow {
     color: var(--secondary);
     font-size: 26px;
@@ -79,6 +80,6 @@
         display: none;
     }
     .side {
-        translate: 340px;
+        translate: 100%;
     }
 }

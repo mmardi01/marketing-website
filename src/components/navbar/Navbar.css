@@ -130,6 +130,14 @@ nav {
     display: none;
 }
 
+
+.keep {
+    width: 100%;
+    height: 20px;
+    top: 20px;
+    position: absolute;
+}
+
 .ccard h1 {
     font-size: 18px;
     font-weight: 600;
