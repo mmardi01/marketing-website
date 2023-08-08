@@ -82,4 +82,7 @@
     .side {
         translate: 100%;
     }
+    .sidelist {
+        display: none;
+    }
 }
