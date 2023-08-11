@@ -1,0 +1,14 @@
+.explore {
+    padding: 30px;
+}
+
+.explore-title h1 {
+    font-weight: 300;
+    margin-left: 15px;
+
+}
+
+.explore-title {
+    display: flex;
+    align-items: center;
+}
