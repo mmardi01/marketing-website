@@ -86,3 +86,8 @@
         display: none;
     }
 }
+
+
+body {
+    scroll-behavior: smooth;
+}

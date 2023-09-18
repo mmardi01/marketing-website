@@ -4,11 +4,20 @@
 
 .explore-title h1 {
     font-weight: 300;
-    margin-left: 15px;
 
 }
 
 .explore-title {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.title-container {
+    margin-left: 15px;
+}
+
+.explore-title p {
+    font-family: 'outfit';
+    font-size: 1rem;
 }

@@ -6,7 +6,7 @@ export default function Head() {
     return (
         <div className='head'>
             <div className='first'>
-                <img className='hero' src="hero.png" alt="" />
+                <img className='hero' src="Hero.png" alt="" />
                 <div className='david'>
                     <div className='dv'>
                         <img src="sergio.jpeg" alt="" />
