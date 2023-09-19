@@ -3,4 +3,25 @@
     height: 118px;
     border: solid 1px var(--secondary);
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 6px;
 }
+
+.card h3 {
+    font-weight:600;
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+
+.card p {
+    font-family: 'outfit';
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card .text {
+    width: 214px ;
+}
+

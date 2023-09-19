@@ -1,5 +1,5 @@
 .explore {
-    padding: 30px;
+    padding: 40px;
 }
 
 .explore-title h1 {
@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    /* padding-left: 40px; */
 }
 
 .title-container {
@@ -20,4 +21,12 @@
 .explore-title p {
     font-family: 'outfit';
     font-size: 1rem;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:  20px 0;
+    justify-content: space-between;
 }

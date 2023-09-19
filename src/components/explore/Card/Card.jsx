@@ -9,8 +9,10 @@ export default function Card({data}) {
       color: data.color === '#D27722' ? "white" : "D27722"
     }}>
       <ReactSVG src={data.icon}></ReactSVG>
-      <h3>{data.title}</h3>
-      <p>{data.description}</p>
+      <div className='text'>
+        <h3>{data.title}</h3>
+        <p>{data.description}</p>
+      </div>
     </div>
   )
 }

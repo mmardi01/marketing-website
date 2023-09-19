@@ -29,5 +29,11 @@ export const exploreData = [
         title:'Vegan Cooking',
         description:'Create delicious, nutritious meals with plant-based ingredients'
     },
+    {
+        icon:'wine.svg',
+        color:'white',
+        title:'Vegan Cooking',
+        description:'Create delicious, nutritious meals with plant-based ingredients'
+    },
 ]
 
